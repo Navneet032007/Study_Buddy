@@ -1,32 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Study Buddy Trail</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="app">
-    <header>
-      <p class="eyebrow">Trail Code Demo</p>
-      <h1>Study Buddy Prototype Trail</h1>
-      <p class="lede">
-        Quick smoke-test UI to confirm CSS and Script wiring without the full app.
-      </p>
-    </header>
-
-    <section class="status-card" aria-live="polite">
-      <p id="statusText">Waiting to start the trail...</p>
-      <button id="trailButton" type="button">Start Trail Ping</button>
-    </section>
-
-    <section class="log">
-      <h2>Trail Event Log</h2>
-      <ul id="trailLog"></ul>
-    </section>
-  </main>
-  <script src="Script.js" defer></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Buddy Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
 
